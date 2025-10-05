@@ -1,6 +1,9 @@
 lease_minutes: 90
 allowed_agents:
-  - agent:web
+  - "AIGA-Orchestrator[bot]"
+  - "aiga-orchestrator[bot]"
+  - "AIGA"
+  - "aiga[bot]"
 claim_policy: first-come-approved-by-app
 pickup_filters:
   must_have_labels: []
