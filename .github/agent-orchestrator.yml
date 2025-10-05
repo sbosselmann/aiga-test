@@ -1,0 +1,10 @@
+lease_minutes: 90
+allowed_agents:
+  - agent:web
+claim_policy: first-come-approved-by-app
+pickup_filters:
+  must_have_labels: []
+  exclude_labels: ["state:done", "state:failed"]
+auto_queue_on_open: true
+notifications:
+  maintainers: []
